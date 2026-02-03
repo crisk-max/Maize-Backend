@@ -31,6 +31,7 @@ async def analyze(
         "confidence": decision["confidence"],
         "evidence": decision["evidence"],
         "recommended_actions": decision["actions"],
+        "market_solutions": decision["market_solutions"],
         "risk_level": decision["risk"],
         "disclaimer": "Advisory only"
     }
